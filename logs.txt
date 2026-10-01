@@ -1,0 +1,68 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.1.1)
+
+2026-09-29T13:38:28.662Z  INFO 1 --- [rateLimiter] [           main] R.rateLimiter.RateLimiterApplication     : Starting RateLimiterApplication v0.0.1-SNAPSHOT using Java 21.0.12.1 with PID 1 (/app/app.jar started by root in /app)
+2026-09-29T13:38:28.667Z  INFO 1 --- [rateLimiter] [           main] R.rateLimiter.RateLimiterApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-09-29T13:38:29.648Z  INFO 1 --- [rateLimiter] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-09-29T13:38:29.652Z  INFO 1 --- [rateLimiter] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-09-29T13:38:29.685Z  INFO 1 --- [rateLimiter] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2026-09-29T13:38:29.920Z  INFO 1 --- [rateLimiter] [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=3e6cdcc8-9714-338a-9c63-992935bffb98
+2026-09-29T13:38:31.247Z  WARN 1 --- [rateLimiter] [           main] o.h.v.i.m.a.CascadingMetaDataBuilder     : HV000271: Using `@Valid` on a container (java.util.List) is deprecated. You should apply the annotation on the type argument(s). Affected element: routes
+2026-09-29T13:38:31.397Z  INFO 1 --- [rateLimiter] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2026-09-29T13:38:31.397Z  INFO 1 --- [rateLimiter] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2026-09-29T13:38:31.397Z  INFO 1 --- [rateLimiter] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2026-09-29T13:38:31.397Z  INFO 1 --- [rateLimiter] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2026-09-29T13:38:31.398Z  INFO 1 --- [rateLimiter] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2026-09-29T13:38:31.398Z  INFO 1 --- [rateLimiter] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2026-09-29T13:38:31.398Z  INFO 1 --- [rateLimiter] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2026-09-29T13:38:31.398Z  INFO 1 --- [rateLimiter] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2026-09-29T13:38:31.398Z  INFO 1 --- [rateLimiter] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2026-09-29T13:38:31.398Z  INFO 1 --- [rateLimiter] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2026-09-29T13:38:31.398Z  INFO 1 --- [rateLimiter] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2026-09-29T13:38:31.398Z  INFO 1 --- [rateLimiter] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Version]
+2026-09-29T13:38:31.399Z  INFO 1 --- [rateLimiter] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2026-09-29T13:38:31.399Z  INFO 1 --- [rateLimiter] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2026-09-29T13:38:31.399Z  INFO 1 --- [rateLimiter] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2026-09-29T13:38:31.925Z  INFO 1 --- [rateLimiter] [           main] o.s.boot.reactor.netty.NettyWebServer    : Netty started on port 8080 (http)
+2026-09-29T13:38:31.963Z  INFO 1 --- [rateLimiter] [           main] R.rateLimiter.RateLimiterApplication     : Started RateLimiterApplication in 3.804 seconds (process running for 4.602)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.1.1)
+
+2026-09-29T16:30:31.316Z  INFO 1 --- [rateLimiter] [           main] R.rateLimiter.RateLimiterApplication     : Starting RateLimiterApplication v0.0.1-SNAPSHOT using Java 21.0.12.1 with PID 1 (/app/app.jar started by root in /app)
+2026-09-29T16:30:31.323Z  INFO 1 --- [rateLimiter] [           main] R.rateLimiter.RateLimiterApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-09-29T16:30:32.642Z  INFO 1 --- [rateLimiter] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-09-29T16:30:32.646Z  INFO 1 --- [rateLimiter] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-09-29T16:30:32.689Z  INFO 1 --- [rateLimiter] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
+2026-09-29T16:30:32.970Z  INFO 1 --- [rateLimiter] [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=3e6cdcc8-9714-338a-9c63-992935bffb98
+2026-09-29T16:30:34.957Z  WARN 1 --- [rateLimiter] [           main] o.h.v.i.m.a.CascadingMetaDataBuilder     : HV000271: Using `@Valid` on a container (java.util.List) is deprecated. You should apply the annotation on the type argument(s). Affected element: routes
+2026-09-29T16:30:35.165Z  INFO 1 --- [rateLimiter] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2026-09-29T16:30:35.165Z  INFO 1 --- [rateLimiter] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2026-09-29T16:30:35.165Z  INFO 1 --- [rateLimiter] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2026-09-29T16:30:35.165Z  INFO 1 --- [rateLimiter] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2026-09-29T16:30:35.166Z  INFO 1 --- [rateLimiter] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2026-09-29T16:30:35.166Z  INFO 1 --- [rateLimiter] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2026-09-29T16:30:35.166Z  INFO 1 --- [rateLimiter] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2026-09-29T16:30:35.166Z  INFO 1 --- [rateLimiter] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2026-09-29T16:30:35.166Z  INFO 1 --- [rateLimiter] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2026-09-29T16:30:35.167Z  INFO 1 --- [rateLimiter] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2026-09-29T16:30:35.167Z  INFO 1 --- [rateLimiter] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2026-09-29T16:30:35.167Z  INFO 1 --- [rateLimiter] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Version]
+2026-09-29T16:30:35.167Z  INFO 1 --- [rateLimiter] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2026-09-29T16:30:35.167Z  INFO 1 --- [rateLimiter] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2026-09-29T16:30:35.167Z  INFO 1 --- [rateLimiter] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2026-09-29T16:30:35.858Z  INFO 1 --- [rateLimiter] [           main] o.s.boot.reactor.netty.NettyWebServer    : Netty started on port 8080 (http)
+2026-09-29T16:30:35.899Z  INFO 1 --- [rateLimiter] [           main] R.rateLimiter.RateLimiterApplication     : Started RateLimiterApplication in 5.441 seconds (process running for 6.784)

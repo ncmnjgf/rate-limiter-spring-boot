@@ -1,0 +1,6 @@
+src/features/landing/Landing.tsx(1,10): error TS6133: 'useEffect' is declared but its value is never read.
+src/features/landing/Landing.tsx(1,21): error TS6133: 'useRef' is declared but its value is never read.
+src/features/landing/Landing.tsx(4,1): error TS6192: All imports in import declaration are unused.
+src/features/landing/Scene.tsx(14,9): error TS6133: 'tok' is declared but its value is never read.
+src/features/landing/Scene.tsx(16,11): error TS6133: 'rate' is declared but its value is never read.
+src/features/landing/Scene.tsx(114,14): error TS6133: 'delCoin' is declared but its value is never read.
